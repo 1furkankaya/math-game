@@ -1,50 +1,29 @@
-# Welcome to your Expo app 👋
+# 🧠 Math Game - React Native
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bu proje, kullanıcıların toplama ve çıkarma işlemlerini süreye karşı çözmesini amaçlayan eğitici ve eğlenceli bir mobil oyundur. React Native + Expo ile geliştirilmiştir.
 
-## Get started
+## 🚀 Özellikler
 
-1. Install dependencies
+- ✅ Zorluk seçimi (Kolay, Orta, Zor)
+- 🧠 Toplama / Çıkarma soruları
+- ⏱ Geri sayım süresi ve animasyonlu zaman çubuğu
+- 🎯 Doğru cevapla puan kazan, yanlışla oyun biter
+- 🔁 Yeniden başlatma özelliği
+- 🏆 Yüksek skor kaydı (AsyncStorage)
+- 🔒 Duraklatma menüsü ve devam etme seçeneği
+- 🔥 Combo sistemi ve en uzun seri takibi
 
-   ```bash
-   npm install
-   ```
+## ⚙️ Kullanılan Teknolojiler
 
-2. Start the app
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [AsyncStorage](https://react-native-async-storage.github.io/async-storage/)
 
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+## 📦 Kurulum
 
 ```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+git clone https://github.com/1furkankaya/math-game.git
+cd math-game
+npm install
+npx expo start
